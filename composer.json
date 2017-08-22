@@ -1,0 +1,19 @@
+{
+    "name": "jerryhenry75/buildlog",
+    "description": "Crea log con sentencias sql",
+    "authors": [
+        {
+            "name": "Enrique Zermeño",
+            "email": "jerryhenry75@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+       
+        "psr-4": {
+            "App\\": "app/",
+            "jerryhenry75\\buildlog\\": "packages/jerryhenry75/buildlog/src"
+        }
+    }
+}
